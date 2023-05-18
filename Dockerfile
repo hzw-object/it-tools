@@ -1,5 +1,5 @@
 # build stage
-FROM node:lts-alpine AS build-stage
+FROM node:16.20 AS build-stage
 WORKDIR /app
 COPY . .
 RUN node -v
