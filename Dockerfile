@@ -4,7 +4,7 @@ WORKDIR /app
 COPY . .
 RUN node -v
 RUN npm install -g pnpm
-RUN pnpm i --frozen-lockfile
+RUN pnpm i 
 RUN pnpm build
 
 # production stage
