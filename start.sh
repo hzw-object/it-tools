@@ -3,8 +3,8 @@ time=$(date "+%Y%m%d%H%M%S")
 npm install
 npm run build
 TAG=latest
-SERVER_NAME=hzw-blog-view
-SERVER_PORT=8000
+SERVER_NAME=hzw-it-tools
+SERVER_PORT=8002
 #容器id
 CID=$(docker ps | grep "$SERVER_NAME" | awk '{print $1}')
 
