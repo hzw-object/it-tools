@@ -1,7 +1,7 @@
 #!/bin/sh -l
 time=$(date "+%Y%m%d%H%M%S")
-npm install
-npm run build
+pnpm install
+pnpm run build
 TAG=latest
 SERVER_NAME=hzw-it-tools
 SERVER_PORT=8002
